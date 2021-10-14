@@ -2,7 +2,7 @@ library random_uint8list;
 import 'dart:math';
 import 'dart:typed_data';
 
-Uint8List random_uint8list(int length) {
+Uint8List randomUint8list(int length) {
   assert(length > 0);
 
   final random = Random();
