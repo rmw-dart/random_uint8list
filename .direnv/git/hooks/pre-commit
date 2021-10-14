@@ -1,5 +1,6 @@
 #!/bin/sh
 
+dart format .
 npx md-include .markdown.json
 git add -u
 

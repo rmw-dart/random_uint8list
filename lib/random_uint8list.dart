@@ -1,4 +1,5 @@
 library random_uint8list;
+
 import 'dart:math';
 import 'dart:typed_data';
 
@@ -14,4 +15,3 @@ Uint8List randomUint8list(int length) {
 
   return ret;
 }
-
